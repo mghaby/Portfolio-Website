@@ -37,3 +37,16 @@
     left: 50px;
     background-color: #333;
 }
+
+.About-Title {
+    font-weight: 400;
+}
+  
+.About-Subtitle {
+    margin: 10px 0px;
+}
+  
+.About-Description{
+    font-weight: 300;
+}
+  
