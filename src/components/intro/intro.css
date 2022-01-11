@@ -1,0 +1,68 @@
+.Intro{
+    display: flex;
+    height: 100vh;
+}
+
+.Intro-Left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro-Right{
+    flex: 1;
+    position: relative;
+}
+
+.Intro-Left-Wrapper{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Intro-Intro{
+    font-size:  30px;
+    font-weight: 300;
+}
+
+.Intro-Name{
+    font-size: 60px;
+}
+
+.Intro-Title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.Intro-Title-Wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translate(-200px);
+    }
+}
+
+.Intro-Title-Item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    display: flex;
+    align-items: center;
+}
+
