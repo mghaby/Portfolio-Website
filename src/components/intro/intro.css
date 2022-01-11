@@ -76,3 +76,10 @@
     top: 0;
     right: 0;
 }
+
+.Intro-Scroll-SVG{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+}
