@@ -5,14 +5,22 @@
 
 .Intro-Left{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Intro-Right{
     flex: 1;
+    position: relative;
 }
 
 .Intro-Left-Wrapper{
     padding: 50px;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Intro-Intro{
@@ -52,3 +60,19 @@
     align-items: center;
 }
 
+.Intro-Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.Intro-Image-Shape{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 23% 51%, 0% 0%);
+    background-color: #59b256;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
