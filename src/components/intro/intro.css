@@ -5,22 +5,14 @@
 
 .Intro-Left{
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .Intro-Right{
     flex: 1;
-    position: relative;
 }
 
 .Intro-Left-Wrapper{
     padding: 50px;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .Intro-Intro{
@@ -43,17 +35,11 @@
 }
 
 @keyframes move {
-    25%{
+    50%{
         transform: translateY(-50px);
     }
-    50%{
-        transform: translateY(-100px);
-    }
-    75%{
-        transform: translateY(-150px);
-    }
     100%{
-        transform: translate(-200px);
+        transform: translateY(-100px);
     }
 }
 
@@ -61,7 +47,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: green;
+    color: #59b256;
     display: flex;
     align-items: center;
 }
