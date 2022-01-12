@@ -1,9 +1,12 @@
 import "./project.css"
 
-const Project = () => {
+const Project = ({image, link}) => {
     return (
         <div className="Project">
-            card
+            <div className="Project-Header"></div>
+            <a href={link} target="_blank" rel="noreferrer">
+                <img src={image} alt="" className="Project-Image" />
+            </a>
         </div>
     )
 }

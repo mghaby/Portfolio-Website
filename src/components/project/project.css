@@ -1,0 +1,26 @@
+.Project{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.Project-Header{
+    height: 20px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.Project-Image{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.Project:hover .Project-Image{
+    transform: translateY(-100%);
+}

@@ -18,3 +18,10 @@
 .ProjectList-Description{
     margin: 20px 0px;
 }
+
+.ProjectList-List{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
