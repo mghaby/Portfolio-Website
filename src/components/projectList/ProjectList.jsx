@@ -1,6 +1,6 @@
 import "./projectList.css";
 import Project from "../project/Project";
-import {Data, projects} from "../../data.js";
+import {projects} from "../../data.js";
 
 const ProjectList = () => {
     return (
@@ -8,8 +8,11 @@ const ProjectList = () => {
             <div className="ProjectList-Text">
                 <h1 className="ProjectList-Title">Previous Projects</h1>
                 <p className="ProjectList-Description">
-                    write something about ur projects and that 
-                    they are here to show ur skills etc
+                    Below are a compilation of projects I have created to showcase my skills and interests
+                   in the world of Software Development. The first is an Automated Trading Algorithm for a client,
+                   the second is a CLI program that can be used to store data regarding trades made in the Foreign Exchange Market,
+                   the third is a Solidity Smart Contract aiming to provide Multi-Signature Wallet capabilities, the fourth is a 
+                   Hotel Management System and finally the portfolio website that you're on right now.
                 </p>
             </div>
 
