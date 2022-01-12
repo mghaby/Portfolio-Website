@@ -5,8 +5,20 @@ import PDF from "../../images/pdf.png"
 import Resume from "../../docs/Resume_MarkGhaby.pdf"
 
 const Contact = () => {
+
+
+
+
+
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        Array.from(document.querySelectorAll('input')).forEach(
+            input => (input.value="")
+        )
+
+        Array.from(document.querySelectorAll('textarea')).forEach(
+            input => (input.value="")
+        )
     }
 
     return(
