@@ -5,7 +5,7 @@ const Project = ({image, link}) => {
         <div className="Project">
             <div className="Project-Header"></div>
             <a href={link} target="_blank" rel="noreferrer">
-                <img src={image} alt="" className="Project-Image" />
+                <img src={image} alt="project related image" className="Project-Image" />
             </a>
         </div>
     )

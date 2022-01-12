@@ -23,11 +23,3 @@ const ProjectList = () => {
 }
 
 export default ProjectList
-
-
-// 1. MQL5 FIRST
-// 2. BACKTEST LOGGER AFTER
-// 3. SOLIDITY
-// 4. HOTEL MANAGEMENT SYSTEM
-
-// talk about this website in description
