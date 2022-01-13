@@ -4,7 +4,7 @@ This application is a static responsive portfolio website built in React.js
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This application is a purely front-end application used to demonstrate my front-end web development abilities as well as showcase my other creations. It provides some insight into my background as well as unified platoform to contact me through.
 
 ## Getting Started
 
@@ -22,7 +22,8 @@ An in-depth paragraph about your project and overview of use.
 ### Executing program
 
 ```
-code blocks for commands
+cd Portfolio-Website
+npm start
 ```
 
 ## Authors
