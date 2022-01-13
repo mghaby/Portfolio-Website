@@ -50,4 +50,28 @@
     font-weight: 300;
     margin-right: 20px;
 }
-  
+
+@media screen and (max-width:480px) {
+    
+    .About{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .About-Left{
+      width: 100%;
+    }
+
+    .About-Card{
+      height: 30vh;
+    }
+
+    .About-Card.bg{
+      display: none;
+    }
+
+    .About-Right{
+      padding: 20px;
+    }
+}

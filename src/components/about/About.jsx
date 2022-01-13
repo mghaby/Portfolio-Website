@@ -14,14 +14,10 @@ const About = () => {
             <div className="About-Right">
                 <h1 className="About-Title">About Me</h1>
                 <p className="About-Subtitle">Fitness Enthusiast and Gamer that loves Software Development</p>
-
                 <p className="About-Description"> 
-                I am currently a University Student studying Software Engineering with a passion for programming. As a child I aspired to be where I am today however growing up it was not so consistent.
-                Around the age of 10 I attempted to learn C# using free resources online and to no avail I struggled to pick it up. During high school the Technology classes barely tapped into this interest
-                as the deepest we achieved was HTML. I continued my high schooling with a disinterest in programming due to the early negative interactions I had, therefore I pursued a career in Medical Sciences.
-                Two years into my study I had enough, I disliked the content and knew a career in this industry would not be sustainable. I went with my gut feeling and blindly applied for a Web Development Bootcamp.
-                This was the career turning point of my life. Despite the struggles I faced attempting to pick up and apply syntax I was deeply interested and accepted the challenges with open arms. I decided I would
-                continue my pursuit and undergo a Bachelor of Engineering to truly be a Software Engineer, which leads me to where I am today.
+                Currently a University Student studying Software Engineering with a passion for programming. This passion was present even as a child however self-teaching at a young age did not work out for me and neither
+                did the Technology curriculum at school. This lead to a two-year pursuit into Medical Sciences which at its peak left me with a decision. I hated the content and knew it was not sustainable. I blindly applied 
+                for a Full-Stack Web Development Bootcamp and never looked back.
                 </p>
             </div>
         </div>
