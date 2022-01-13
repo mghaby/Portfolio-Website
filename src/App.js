@@ -7,7 +7,6 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
 
-
 function App() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;

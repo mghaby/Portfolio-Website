@@ -39,7 +39,7 @@ const Contact = () => {
                         </div>
 
                         <div className="Contact-Info-Item">
-                            <a href={Resume} download>
+                            <a href="https://drive.google.com/file/d/1kB-mbDqA_iW3VAwaMF9aqf51ZJW1PhmG/view?usp=sharing" target="_blank" rel="noreferrer">
                             <img src={PDF} alt="pdf icon" className="Contact-Icon" />Download Resume
                             </a>
                         </div>
