@@ -25,9 +25,9 @@
     transform: translateY(-100%);
 }
 
-@media screen and (max-width: 480px) {
-    .Project {
+@media screen and (max-width: 480px){
+    .Project{
       width: 40%;
       height: 20vh;
     }
-  }
+}

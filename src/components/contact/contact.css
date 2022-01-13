@@ -80,38 +80,38 @@ button{
 }
 
 @media screen and (max-width: 480px) {
-    .Contact-Wrapper {
+    .Contact-Wrapper{
       flex-direction: column;
       padding: 0px 50px;
     }
   
-    .Contact-Title {
+    .Contact-Title{
       font-size: 30px;
     }
   
-    .Contact-Info-Item {
+    .Contact-Info-Item{
       margin: 20px 0px;
       width: 100%;
     }
   
-    .Contact-Description {
+    .Contact-Description{
       display: none;
     }
   
-    form {
+    form{
       margin-top: 0px;
       display: flex;
       flex-wrap: wrap;
     }
   
-    input {
+    input{
       width: 35%;
       height: 40px;
       margin: 10px;
       margin-left: 0;
     }
   
-    button {
+    button{
       margin-top: 10px;
     }
 }

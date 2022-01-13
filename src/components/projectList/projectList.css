@@ -26,16 +26,16 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
-    .ProjectList {
+@media screen and (max-width: 480px){
+    .ProjectList{
       padding: 10px;
     }
   
-    .ProjectList-Text {
+    .ProjectList-Text{
       width: 100%;
     }
   
-    .ProjectList-Description {
+    .ProjectList-Description{
       display: none;
     }
 }

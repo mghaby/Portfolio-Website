@@ -21,7 +21,7 @@ const Intro = () => {
                     </p>
                 </div>
                 <svg width="75" height="75" viewBox="0 0 75 75" fill="none" 
-                stroke="black" // CHANGE COLOUR FOR SVG HERE ----------------------------------------------
+                stroke="black"
                 className="Intro-Scroll-SVG" xmlns="http://www.w3.org/2000/svg">
                     <g id="scroll">
                       <path id="Vector" d="M40.5 15L34.5 9L28.5 15" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -41,9 +41,6 @@ const Intro = () => {
             <div className="Intro-Right">
                 <div className="Intro-Image-Shape"></div>
                 <img src={Me} alt="photo of Mark Ghaby" className="Intro-Image" />
-                {/* <div className="Intro-Right-Wrapper">
-                    intro right wrap
-                </div> */}
             </div>
         </div>
     )
