@@ -2,7 +2,7 @@
 
 This application is a static responsive portfolio website built in React.js
 
-You can find this deployed at: http://www.mghaby.com/
+You can find this deployed at: https://mghaby.netlify.app/
 
 ## Description
 
