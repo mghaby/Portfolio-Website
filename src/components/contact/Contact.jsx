@@ -2,7 +2,6 @@ import "./contact.css"
 import Email from "../../images/email.png"
 import LinkedIn from "../../images/linkedin.png"
 import PDF from "../../images/pdf.png"
-import Resume from "../../docs/Resume_MarkGhaby.pdf"
 import { useContext } from "react"
 import { ThemeContext } from "../../context"
 
@@ -39,7 +38,7 @@ const Contact = () => {
                         </div>
 
                         <div className="Contact-Info-Item">
-                            <a href="https://drive.google.com/file/d/1kB-mbDqA_iW3VAwaMF9aqf51ZJW1PhmG/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <a href="https://docs.google.com/document/d/1BA6qrsS-KpoxjDZtftNt8CjL-hgXIrferjske8dQhnY/edit?usp=sharing" target="_blank" rel="noreferrer">
                             <img src={PDF} alt="pdf icon" className="Contact-Icon" />Download Resume
                             </a>
                         </div>
