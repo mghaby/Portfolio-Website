@@ -25,6 +25,7 @@ This application is a purely front-end application used to demonstrate my front-
 
 ```
 cd Portfolio-Website
+npm install
 npm start
 ```
 
@@ -38,6 +39,8 @@ npm start
 
 * 0.1
     * Initial Release
+* 0.2
+    * 2024 Update - Updated home page, projects page and execution instructions
 
 ## Acknowledgments
 

@@ -1,27 +1,21 @@
+import DS from "./images/ds.png";
+import SEC from "./images/sec.jpg";
 import EA from "./images/ea.jpg";
-import BackTest from "./images/backtest.jpg";
-import Sol from "./images/sol.jpg";
-import Hotel from "./images/hotel.jpg";
 
 export const projects = [
     {
         id: 1,
-        image: EA,
-        link: "https://github.com/mghaby/MacDCrossover-EMA-ATR"
+        image: DS,
+        link: "https://github.com/mghaby/Distributed-Scheduler"
     },
     {
         id: 2,
-        image: BackTest,
-        link: "https://github.com/mghaby/Backtest-Logger"
+        image: SEC,
+        link: "https://github.com/MQ2024COMP3310/comp3310-group-project-wehatecoding"
     },
     {
         id: 3,
-        image: Sol,
-        link: "https://github.com/mghaby/Multi-Sig-Wallet-Solidity"
-    },
-    {
-        id: 4,
-        image: Hotel,
-        link: "https://github.com/mghaby/Hotel-Management-System"
+        image: EA,
+        link: "https://github.com/mghaby/StopLoss-PartialProfit-Manager"
     }
 ];
